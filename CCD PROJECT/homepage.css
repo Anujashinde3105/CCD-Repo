@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+}
+
+.navBar .logo {
+  height: 50px;
+  width: 40px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.navBar .firstsec {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-left: 50px;
+  color: red;
+  font-size: 18px;
+}
+
+.firstsec p a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.navBar .firstsec p:hover {
+  border-bottom: 4px solid red;
+  cursor: pointer;
+}
+
+.dropbtn {
+  color: red;
+  margin-bottom: 20px;
+  background-color: white;
+  border: transparent;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(247, 37, 79);
+  color: white;
+  min-width: 200px;
+}
+
+.dropdown-content p {
+  color: white;
+  padding: 3px;
+  text-align: start;
+}
+
+.dropdown-content p:hover {
+  opacity: 0.5;
+  color: white;
+  padding: 3px;
+  background-color: lightgray;
+  position: sticky;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn:hover {
+  border-bottom: 4px solid red;
+  cursor: pointer;
+}
+
+.navBar .secondsec {
+  margin-left: 330px;
+  padding: 30px;
+  color: red;
+}
+
+.navBar .secondsec i {
+  padding: 10px;
+  color: red;
+  font-size: 16px;
+}
+
+.navBar .secondsec i:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: black;
+}
+
+.card-images {
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.card-images .box1 {
+  height: 480px;
+  width: 33.33%;
+  background-image: url(./IMAGES/Card1.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.box1 .btn1 {
+  height: 40px;
+  width: 120px;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-decoration: none;
+  margin-left: 180px;
+  margin-top: 420px;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+  border-radius: 20px;
+  
+}
+
+.box1 .btn1 a {
+  color: white;
+}
+
+.box1 .btn1 a :hover {
+  color: white;
+  text-decoration: none;
+}
+
+.box1 .btn1 a p:hover {
+  opacity: 0;
+  transform: translate(50px);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+
+}
+
+.card-images .box2 {
+  height: 480px;
+  width: 33.33%;
+  background-image: url(./IMAGES/card2.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.box2 .btn2 {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 160px;
+  margin-top: 420px;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+  border-radius: 20px;
+}
+
+.box2 .btn2 a {
+  color: white;
+}
+.box2 .btn2 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.box2 .btn2 a p:hover {
+  opacity: 0;
+  transform: translate(50px);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.card-images .box3 {
+  height: 480px;
+  width: 33.33%;
+  background-image: url(./IMAGES/card3.gif);
+  background-position: center;
+  background-size: contain;
+}
+
+.box3 .btn3 {
+  height: 40px;
+  width: 140px;
+  /* border: 1px solid black; */
+  text-align: center;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: 420px;
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+  border-radius: 20px;
+}
+
+.box3 .btn3 a {
+  color: white;
+}
+
+.box3 .btn3 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.box3 .btn3 a p:hover {
+  opacity: 0;
+  transform: translate(50px);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.background {
+  height: 500px;
+  width: 100%;
+  background-image: url(./IMAGES/darkbackground4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  opacity: 1;
+}
+
+.firstdiv {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.firstdiv img {
+  height: 250px;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 35%;
+}
+
+.seconddiv .readOurStory {
+  height: 50px;
+  width: 150px;
+  /* border: 1px solid black; */
+  margin-left: 43%;
+  padding: 10px;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.readOurStory a {
+  color: white;
+}
+
+.readOurStory a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.readOurStory a p:hover {
+  opacity: 0;
+  transform: translate(20px);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.icons {
+  width: 680px;
+  margin-left: 42%;
+  margin-top: 50px;
+  z-index: -1;
+}
+
+#firsticon {
+  font-size: 20px;
+  padding: 10px;
+  background-color: crimson;
+  border-radius: 15px;
+  color: white;
+}
+
+#firsticon:hover {
+  transform: scale(1.1);
+  transition: 0.5;
+}
+
+#secondicon {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(52, 52, 250);
+  border-radius: 15px;
+  color: white;
+  margin-left: 15px;
+}
+
+#secondicon:hover {
+  transform: scale(1.1);
+  transition: 0.5;
+}
+
+#thirdicon {
+  font-size: 20px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  margin-left: 15px;
+}
+
+#thirdicon:hover {
+  transform: scale(1.1);
+  transition: 0.5;
+}
+
+#fourthicon {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(93, 132, 250);
+  border-radius: 15px;
+  color: white;
+  margin-left: 15px;
+}
+
+#fourthicon:hover {
+  transform: scale(1.1);
+  transition: 0.5;
+}
+
+#fifthicon {
+  font-size: 20px;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 15px;
+  color: white;
+  margin-left: 15px;
+}
+
+#fifthicon:hover {
+  transform: scale(1.1);
+  transition: 0.5;
+}
+
+.footer {
+  height: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  color: grey;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.copyright {
+  color: grey;
+  margin-left: 10px;
+}

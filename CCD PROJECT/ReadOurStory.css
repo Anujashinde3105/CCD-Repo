@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 5px grey;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+}
+
+.navBar .logo {
+    height: 50px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.navBar .firstsec {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-left: 50px;
+    color: red;
+    font-size: 18px;
+}
+
+.navBar .firstsec p {
+    line-height: 50px;
+}
+.firstsec p a {
+    text-decoration: none;
+    color: crimson;
+}
+.navBar .firstsec p:hover {
+    border-bottom: 4px solid red;
+    cursor: pointer;
+}
+
+.dropbtn {
+    color: red;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+    background-color: white;
+    border: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 37, 79);
+    color: white;
+    min-width: 180px;
+}
+
+.dropdown-content p {
+    color: white;
+    padding: 3px;
+    text-align: start;
+}
+
+.dropdown-content p:hover {
+    opacity: 1;
+    color: white;
+    padding: 3px;
+    background-color: lightgray;
+    position: sticky;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    border-bottom: 4px solid red;
+    cursor: pointer;
+}
+
+.navBar .secondsec {
+    margin-left: 330px;
+    padding: 30px;
+    color: red;
+}
+
+.navBar .secondsec i {
+    padding: 10px;
+    color: red;
+    font-size: 16px;
+}
+
+.navBar .secondsec i:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+}
+
+.mainSection {
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    box-shadow: 0px 0px 5px 5px grey;
+}
+
+.about {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about button {
+    height: 40px;
+    width: 120px;
+    /* border: 1px solid black;  */
+    /* padding: 5px; */
+    background-color: crimson;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    color: white;
+}
+.about button a{
+    text-decoration: none;
+    color: white;
+}
+
+.about p {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nestedSection ul {
+    height: 50px;
+    width: 100%;
+}
+
+.nestedSection ul li a {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: royalblue;
+}
+
+.mainContent section {
+    margin-left: 25%;
+    /* height: 220px;
+    border: 1px solid black; */
+    margin-top: 80px;
+    align-items: center;
+}
+
+.mainContent section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.mainContent section p {
+    margin-top: 15px;
+    font-size: 18px;
+    word-spacing: 5px;
+    color: grey;
+}
+
+.contentList {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    width: 680px;
+    margin-left: 42%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    z-index: -1;
+  }
+  
+  #firsticon {
+    font-size: 20px;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  #firsticon:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+  }
+  
+  #secondicon {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(52, 52, 250);
+    border-radius: 15px;
+    color: white;
+    margin-left: 15px;
+  }
+  
+  #secondicon:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+  }
+  
+  #thirdicon {
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    margin-left: 15px;
+  }
+  
+  #thirdicon:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+  }
+  
+  #fourthicon {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(93, 132, 250);
+    border-radius: 15px;
+    color: white;
+    margin-left: 15px;
+  }
+  
+  #fourthicon:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+  }
+  
+  #fifthicon {
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    margin-left: 15px;
+  }
+  
+  #fifthicon:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+  }
+  
+  .footer {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    color: grey;
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 30px;
+  }
+  
+  .copyright {
+    color: grey;
+    margin-left: 10px;
+  }
